@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Give Darren a Chance to Keep Moving Forward</title>
+<meta name="description" content="Support Darren and his family with the cost of therapy. Every donation and share can make a difference.">
+<style>
+:root{
+ --ink:#172433;--muted:#647383;--blue:#2563eb;--blue2:#1d4ed8;
+ --light:#f5f8fc;--white:#fff;--gold:#f4c95d;--line:#e4eaf1;
+ --shadow:0 20px 55px rgba(20,38,60,.13);--radius:24px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.7}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{height:74px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.05rem;font-weight:900;letter-spacing:-.02em}
+.logo span{color:var(--blue)}
+.nav{display:flex;align-items:center;gap:26px;font-weight:700;color:#435365}
+.nav a:hover{color:var(--blue)}
+.nav .donate{background:var(--blue);color:#fff;padding:10px 19px;border-radius:999px}
+.hero{background:linear-gradient(120deg,#f4f8ff 0%,#fff 58%,#fff9e8 100%);padding:82px 0 76px}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}
+.kicker{display:inline-flex;gap:8px;align-items:center;background:#eaf2ff;color:var(--blue2);padding:7px 13px;border-radius:999px;font-size:.82rem;font-weight:900;text-transform:uppercase;letter-spacing:.07em}
+h1{font-size:clamp(3rem,6vw,5.4rem);line-height:.98;letter-spacing:-.06em;margin:20px 0;color:var(--ink)}
+.lead{font-size:1.18rem;color:#526273;max-width:620px}
+.buttons{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 25px;border-radius:13px;font-weight:900;transition:.2s}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 10px 25px rgba(37,99,235,.2)}
+.btn-primary:hover{background:var(--blue2);transform:translateY(-2px)}
+.btn-light{background:#fff;border:1px solid var(--line);color:var(--ink)}
+.trust{margin-top:22px;color:#718092;font-size:.88rem;display:flex;gap:18px;flex-wrap:wrap}
+.photo-wrap{position:relative}
+.photo-frame{background:#fff;padding:13px;border-radius:30px;box-shadow:var(--shadow);transform:rotate(1deg)}
+.photo-area{min-height:510px;border-radius:21px;background:#e9f0f7;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;position:relative}
+.photo-area img{width:100%;height:100%;min-height:510px;object-fit:cover;display:none}
+.photo-placeholder{padding:35px;color:#718092}
+.photo-placeholder .symbol{font-size:4.3rem;margin-bottom:8px}
+.photo-placeholder h3{margin:0 0 6px;color:var(--ink)}
+.photo-placeholder p{margin:0;font-size:.92rem}
+.photo-note{position:absolute;left:-25px;bottom:28px;background:#fff;padding:17px 20px;border-radius:17px;box-shadow:0 12px 30px rgba(20,38,60,.14);font-weight:800;max-width:250px}
+section{padding:88px 0}.soft{background:var(--light)}
+.section-head{max-width:760px;margin:0 auto 45px;text-align:center}
+.section-head h2{font-size:clamp(2.1rem,4vw,3.25rem);line-height:1.08;letter-spacing:-.04em;margin:0 0 13px}
+.section-head p{color:var(--muted);margin:0;font-size:1.05rem}
+.story-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:stretch}
+.story-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:39px;box-shadow:0 8px 28px rgba(20,38,60,.055)}
+.story-card h3{font-size:1.45rem;margin:0 0 13px}
+.story-card p{color:#536273}
+.quote{background:var(--ink);color:#fff;border-radius:var(--radius);padding:39px;display:flex;flex-direction:column;justify-content:center}
+.quote .mark{font-size:3.5rem;color:var(--gold);line-height:.7}
+.quote p{font-size:1.45rem;line-height:1.45;margin:15px 0 18px;font-weight:700}
+.quote small{color:#c1ccd7}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.stat{background:#fff;border:1px solid var(--line);padding:25px;border-radius:18px}
+.stat strong{font-size:1.05rem;display:block;color:var(--blue);margin-bottom:4px}
+.stat span{color:var(--muted);font-size:.9rem}
+.help{background:#102337;color:#fff}.help .section-head h2{color:#fff}.help .section-head p{color:#c4d0dc}
+.help-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.help-card{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.055);padding:29px;border-radius:20px}
+.help-card b{display:block;font-size:1.18rem;margin-bottom:8px;color:#fff}
+.help-card p{color:#c4d0dc;margin:0}
+.donate{padding:95px 0;background:linear-gradient(135deg,#eef5ff,#fff)}
+.donate-box{max-width:830px;margin:auto;background:#fff;border:1px solid var(--line);border-radius:30px;box-shadow:var(--shadow);padding:52px;text-align:center}
+.donate-box h2{font-size:clamp(2.2rem,4vw,3.5rem);line-height:1.05;margin:0 0 14px;letter-spacing:-.04em}
+.donate-box p{max-width:650px;margin:0 auto;color:var(--muted)}
+.donate-btn{margin-top:27px;font-size:1.05rem;padding:0 34px}
+.share{margin-top:16px;font-size:.88rem!important}
+footer{background:#0b1927;color:#9eb0c0;padding:34px 0}
+footer .container{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer strong{color:#fff}
+@media(max-width:850px){
+ .hero-grid,.story-grid{grid-template-columns:1fr}.hero{padding-top:55px}
+ .photo-area,.photo-area img{min-height:380px}.photo-note{left:15px}
+ .help-grid,.stats{grid-template-columns:1fr}.donate-box{padding:35px 22px}
+ .nav a:not(.donate){display:none}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<nav>
+<a class="logo" href="#">Team <span>Darren</span></a>
+<div class="nav">
+<a href="#story">Darren's story</a>
+<a href="#help">How to help</a>
+<a class="donate" href="https://gofund.me/d5262fde8" target="_blank" rel="noopener">Donate</a>
+</div>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<div class="kicker">💙 A family asking for help</div>
+<h1>Every child deserves the chance to move forward.</h1>
+<p class="lead">
+Darren has Down syndrome. His parents want to give him the therapy and support he needs,
+but the cost has become more than they can manage alone. Today, they are asking for a little help from their community.
+</p>
+<div class="buttons">
+<a class="btn btn-primary" href="https://gofund.me/d5262fde8" target="_blank" rel="noopener">❤️ Help Darren today</a>
+<a class="btn btn-light" href="#story">Read his story</a>
+</div>
+<div class="trust">
+<span>✓ Secure GoFundMe donation</span>
+<span>✓ Every amount helps</span>
+</div>
+</div>
+
+<div class="photo-wrap">
+<div class="photo-frame">
+<div class="photo-area">
+<!-- IMAGE AREA: replace the src below with Darren's photo -->
+<img id="darrenPhoto" src="https://chatgpt.com/backend-api/estuary/content?id=file_0000000020a882108a840a36b72e9bd4&ts=497503&p=fs&cid=1&sig=abf092fc90e5bf4f3ee940beaabe7f9c5431829509c901461398ed0ae5a0a4b4&v=0" alt="Photo of Darren" style="display:block;">
+<div class="photo-placeholder" id="placeholder" style="display:none;">
+<div class="symbol">💙</div>
+<h3>Add Darren's photo here</h3>
+<p>Replace the image source in the HTML with a photo of Darren.</p>
+</div>
+</div>
+</div>
+<div class="photo-note">“Your support can help give Darren access to the care he needs.”</div>
+</div>
+</div>
+</section>
+
+<section id="story">
+<div class="container">
+<div class="section-head">
+<h2>This is more than a fundraiser.</h2>
+<p>It is a family asking for a little breathing room — and a chance to keep supporting their son.</p>
+</div>
+<div class="story-grid">
+<article class="story-card">
+<h3>Darren's story</h3>
+<p>
+Darren has Down syndrome and needs ongoing support and therapy. His parents are doing what they can
+to provide that support, but therapy comes with costs that are difficult for their family to carry on their own.
+</p>
+<p>
+They are turning to others now because they do not want financial pressure to stand between Darren
+and the opportunities that therapy can provide.
+</p>
+<p>
+<strong>If you can donate, thank you. If you cannot, sharing Darren's fundraiser can still make a real difference.</strong>
+</p>
+</article>
+<aside class="quote">
+<div class="mark">“</div>
+<p>Sometimes a small act of kindness is exactly what a family needs to keep going.</p>
+<small>— Team Darren</small>
+</aside>
+</div>
+<div class="stats">
+<div class="stat"><strong>Therapy</strong><span>Help with the costs of Darren's care and support.</span></div>
+<div class="stat"><strong>Family</strong><span>Help reduce the financial pressure on his parents.</span></div>
+<div class="stat"><strong>Community</strong><span>Share Darren's story so it can reach more people.</span></div>
+</div>
+</div>
+</section>
+
+<section class="help" id="help">
+<div class="container">
+<div class="section-head">
+<h2>There are three ways you can help.</h2>
+<p>You do not have to make a large donation to make a difference.</p>
+</div>
+<div class="help-grid">
+<div class="help-card"><b>01 — Donate</b><p>Give whatever you comfortably can through Darren's GoFundMe fundraiser.</p></div>
+<div class="help-card"><b>02 — Share</b><p>Send the fundraiser to friends, family, colleagues or anyone who may want to help.</p></div>
+<div class="help-card"><b>03 — Be there</b><p>A kind message or simply helping Darren's story reach someone else also matters.</p></div>
+</div>
+</div>
+</section>
+
+<section class="donate">
+<div class="container">
+<div class="donate-box">
+<h2>Help Darren get the support he needs.</h2>
+<p>
+If you are able to help, please consider making a donation. If donating is not possible,
+sharing this page and the GoFundMe campaign is another powerful way to support Darren and his family.
+</p>
+<a class="btn btn-primary donate-btn" href="https://gofund.me/d5262fde8" target="_blank" rel="noopener">Donate through GoFundMe →</a>
+<p class="share">The official fundraiser contains the current goal, donation information and campaign updates.</p>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+<div><strong>Team Darren</strong><br>Thank you for standing with Darren. 💙</div>
+<div><a href="https://gofund.me/d5262fde8" target="_blank" rel="noopener">GoFundMe fundraiser →</a></div>
+</div>
+</footer>
+</body>
+</html>
